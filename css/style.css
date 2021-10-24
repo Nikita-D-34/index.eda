@@ -1,11 +1,8 @@
-
 body {
   background-color: violet;
-  font-family: 'Roboto',
-  sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 10px 0;
 }
-
 
 * {
   box-sizing: border-box;
@@ -39,7 +36,7 @@ body {
   cursor: pointer;
 }
 .login {
-  background: #EBEBEB;
+  background: #ebebeb;
   border-radius: 50px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -50,7 +47,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #000000;
-
 }
 .search-input {
   background-color: transparent;
@@ -58,7 +54,7 @@ body {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-   padding-top: 13px;
+  padding-top: 13px;
   padding-bottom: 13px;
 }
 .auth {
@@ -70,7 +66,7 @@ body {
   width: 49px;
   height: 49px;
   border-radius: 50%;
-  background: #F66A15;
+  background: #f66a15;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,13 +76,13 @@ body {
   position: absolute;
   right: 0px;
   bottom: 0px;
-background-color: #ffaf19;
-font-size: 8px;
-line-height: 9px;
-color: #000000;
-display: block;
-padding: 5px;
-border-radius: 50%;
+  background-color: #ffaf19;
+  font-size: 8px;
+  line-height: 9px;
+  color: #000000;
+  display: block;
+  padding: 5px;
+  border-radius: 50%;
 }
 .slide {
   position: relative;
@@ -98,8 +94,8 @@ border-radius: 50%;
   padding: 100px;
 }
 .slide-text-light {
-    background-color: grey;
-    color: white;
+  background-color: grey;
+  color: white;
 }
 .slide-content {
   position: relative;
@@ -129,7 +125,7 @@ border-radius: 50%;
 .button {
   border-radius: 25px;
   padding: 12px 50px;
-  display:inline-block;
+  display: inline-block;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -140,142 +136,357 @@ border-radius: 50%;
   background-image: url(../image/summer.png);
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
-  .slide:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
-  }
-  .promo {
-    margin-top: 50px;
-  }
+.slide:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.43) 40.45%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.promo {
+  margin-top: 50px;
+}
 
-  .card {
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-  }
+.card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
 
-  .card:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0.3));
-  }
-   .promo {
-     margin-top: 20px;
-   }
-   .card {
-     position: relative;
-     border-radius: 20px;
-     overflow: hidden;
-   }
-   .card:before {
-     content: "";
-     position: absolute;
-     left: 0;
-     top: 0;
-     width: 100%;
-     height: 100%;
-     background: linear-gradient(0deg, rgba(0, 0, 0.3));
-   }
-    .promo {
-      margin-top: 50px;
-    }
+.card:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0.3));
+}
+.promo {
+  margin-top: 20px;
+}
+.card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0.3));
+}
+.promo {
+  margin-top: 50px;
+}
 
-    .card {
-      position: relative;
-      border-radius: 20px;
-      overflow: hidden;
-    }
+.card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
 
-    .card:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(0deg, rgba(0, 0, 0.3));
-    }
+.card:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0.3));
+}
 
-    .promo {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-    }
+.promo {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: -10px; */
+}
 
-    .card {
-      position: relative;
-      border-radius: 20px;
-      overflow: hidden;
-      padding: 32px;
-      max-width: 570px;
-      min-height: 380px;
-      display:flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 100%;
-    }
+.card {
+  flex: 50%;
+  /* margin: 20px; */
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 32px;
+  max-width: 570px;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 50%; */
+}
 
-    .card:before {
-      z-index: -1;
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-    }
-    .card-text-light {
-      color: #fff;
-    }
-    .card-title {
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 23px;
-      margin-top: 4px;
-      margin-bottom: 21px;
-    }
-    .card-description {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 23px;
-      max-width: 200px;
-    }
-    .card-price {
-       display: block;
-       font-weight: 500;
-       font-size: 24px;
-       line-height: 23px;
-       margin-bottom: 8px;
-    }
-    .card-delivery {
-      display: block;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 23px;
-      margin-bottom: 25px;
-    }
-    .sweet-basket {
-       background-image: url(../image/sweet.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-    }
-     .sweet2-basket {
-       background-image: url(../image/sweet2.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-     }
+.card:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.card-text-light {
+  color: #fff;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 21px;
+}
+.card-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 200px;
+}
+.card-price {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.card-delivery {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+.sweet-basket {
+  background-image: url(../image/sweet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sweet2-basket {
+  background-image: url(../image/sweet2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+.delivery-week {
+  padding: 100px 0px;
+}
+.delivery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card {
+  margin: 15px;
+  position: relative;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.delivery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery-tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49494f;
+  padding: 5px 10px;
+}
+.tag-health {
+  background: #d0fd89;
+}
+.tag-health2 {
+  background: #aebc41;
+  color: #ffffff;
+}
+.tag-health3 {
+  background: #b86b78;
+  color: #ffffff;
+}
+.tag-health4 {
+  background: #d68334;
+  color: #ffffff;
+}
+.tag-health5 {
+  background: #cd6255;
+  color: #ffffff;
+}
+.tag-health6 {
+  background: #fffdbf;
+  color: #49494f;
+}
+.tag-health7 {
+  background: #f6fdc8;
+  color: #49494f;
+}
+.tag-health8 {
+  background: #fef7fe;
+  color: #49494f;
+}
+.section-grey {
+  background: #f6f6f6;
+}
+.category {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs-card {
+  max-width: 270px;
+  background-color: #fff;
+}
+.tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 62px;
+  list-style-type: none;
+}
+.tabs-link.active {
+  color: #f37321;
+}
+.tabs-content {
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+}
+.tabs-link {
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #49494f;
+  margin-right: 58px;
+}
+.tabs-image {
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.tabs-image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
+}
+.tab-card-content {
+  padding: 23px;
+}
+.tabs-title {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tabs-title2 {
+  /* margin-top: 0; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 13px;
+  width: 200px;
+}
+.tabs-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b9b9be;
+}
+.tabs-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs-price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4b4b51;
+  display: block;
+  margin-bottom: 5px;
+}
+.tabs-weigth {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #aaaab1;
+}
+.button-outline {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 15px 25px;
+  border: 2px solid #f37321;
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f37321;
+}
+.button-center {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+}
+.all-tabs-content {
+  display: flex;
+}
+.footer {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  margin-right: 50px;
+}
+.footer-link {
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link {
+  margin-left: 20px;
+  text-decoration: none;
+}
